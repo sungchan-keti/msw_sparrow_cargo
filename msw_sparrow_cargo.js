@@ -53,8 +53,8 @@ catch (e) {
         target: 'armv6',
         description: "[name] [pwm_no]",
         scripts: './lib_sparrow_cargo 1',		// './lib_sparrow_air /dev/ttyUSB4 115200',
-	data: ['DISTANCE'],
-        control: ['Control_ONOFF']
+	data: ['CARGO'],
+        control: ['Control_OPEN']
     };
     config.lib.push(add_lib);
 }
