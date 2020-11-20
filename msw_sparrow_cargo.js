@@ -52,7 +52,7 @@ catch (e) {
         name: 'msw_sparrow_cargo',			// 'lib_sparrow_air',
         target: 'armv6',
         description: "[name] [pwm_no]",
-        scripts: './lib_sparrow_cargo 1',		// './lib_sparrow_air /dev/ttyUSB4 115200',
+        scripts: './lib_sparrow_cargo 0',		// './lib_sparrow_air /dev/ttyUSB4 115200',
 	data: ['CARGO'],
         control: ['Control_OPEN']
     };
